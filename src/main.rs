@@ -15,7 +15,7 @@ struct Greeting {
 }
 
 fn main() {
-    let greeting = Arc::new(Mutex::new(Greeting { msg: "Hello, World".to_string() }));
+    let greeting = Arc::new(Mutex::new(Greeting { msg: "Hello, World22".to_string() }));
     let greeting_clone = greeting.clone();
 
     let mut router = Router::new();
